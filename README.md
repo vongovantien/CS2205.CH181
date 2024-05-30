@@ -15,11 +15,11 @@
 
 ### TÊN ĐỀ TÀI
 
-DYNAMIC AVATAR GENERATION BASED ON EMOTIONAL AND PERSONALITY TRAITS
+GENERATING FACIAL IMAGES FROM TEXT DESCRIPTIONS USING STYLEGAN2
 
 ### TÓM TẮT
 
-Nghiên cứu này nhằm khám phá các phương pháp và công nghệ liên quan đến việc tạo ra các avatar động, có khả năng phản ánh chính xác cảm xúc và đặc điểm tính cách của người dùng. Mục tiêu là cải thiện tương tác và sự gắn kết của người dùng trong các môi trường ảo thông qua việc tạo ra các đại diện số cá nhân hóa và phản hồi tốt hơn.
+Nghiên cứu này tập trung vào việc sử dụng mạng đối kháng tạo sinh (GANs) để tạo ra hình ảnh khuôn mặt từ các mô tả văn bản chi tiết. Bằng cách áp dụng mô hình BERT, các mô tả văn bản sẽ được chuyển đổi thành các embedding vector, cung cấp biểu diễn ngữ nghĩa phong phú. Tiếp theo, chúng tôi phát triển một mô hình học sâu để chuyển đổi các embedding này thành các vector tiềm ẩn trong không gian StyleGAN2. Quá trình này cho phép kiểm soát chính xác các đặc điểm khuôn mặt dựa trên mô tả như màu tóc, màu mắt, hình dáng khuôn mặt, và các đặc điểm khác. Cuối cùng, mạng tổng hợp của StyleGAN2 sẽ sử dụng các vector tiềm ẩn đã được điều chỉnh để tạo ra hình ảnh khuôn mặt chi tiết và chân thực, đảm bảo rằng kết quả đầu ra khớp với mô tả văn bản ban đầu.
 
 ### Thành viên nhóm
 
